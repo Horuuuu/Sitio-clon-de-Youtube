@@ -15,4 +15,6 @@
  ![](img/Screenshot_3.jpg)
 <p>El contenedor cuenta con la clase active y un identificador ,con esto utilize document.Queryselector para acceder al boton del menu y un addeventlistener para el evento click que  ejecuta la funcion. La funcion ingresa a la lista de clases del contenedor y a travez del metodo toggle le da la clase active, (si no la tiene) y se la quita si la tiene.Asi el menu cambia de tamaño deacuerdo al click del usuario.</p>
 <p>El contenido principal lo hice con grid , un grid gap para que halla un espacio entre las imagenes de la grilla y un grid template columns para que tenga cuatro columnas.</p>
+
+![](img/htmljavabootstrap.png)
 <footer>Ambas paginas estan hechas con Html ,Css ,Bootstrap y Javascript</footer>
