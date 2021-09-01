@@ -20,5 +20,7 @@
 
  ![](img/play-video.jpg)
 Resumen a completar 🙏
-![](img/htmljavabootstrap.png)
+
 <footer>Las páginas estan hechas con Html ,Css ,Bootstrap y Javascript</footer>
+
+![](img/htmljavabootstrap.png)
