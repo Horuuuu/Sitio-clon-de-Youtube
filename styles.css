@@ -170,7 +170,7 @@ a {
   grid-gap: 40px 20px;
   grid-template-columns: repeat(4, 1fr);
 }
-.main .grid-videos .video {
+.main .grid-videos .video img {
   width: 100%;
   display: block;
 }
