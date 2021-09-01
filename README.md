@@ -23,4 +23,5 @@ Resumen a completar 🙏
 
 <footer>Las páginas estan hechas con Html ,Css ,Bootstrap y Javascript</footer>
 
-![](img/htmljavabootstrap.png)
+
+![](img/front.jpg)
