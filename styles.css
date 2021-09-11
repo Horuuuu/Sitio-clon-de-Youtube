@@ -158,6 +158,22 @@ a {
   margin: 20px 0;
   border: 1px solid whitesmoke;
 }
+input[type="radio"] {
+  display: none;
+}
+
+.container-category label {
+  flex: 0 0 auto;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: #f0f0f0;
+  border: 1px solid #dbdbdb;
+  text-transform: capitalize;
+  margin-right: 10px;
+  color: #242424;
+  font-size: 15px;
+  cursor: pointer;
+}
 .menu .filters {
   position: fixed;
   left: 250px;
@@ -191,11 +207,14 @@ a {
   cursor: pointer;
 }
 
-.filter-options.active {
+.filter-options .active {
   color: #fff;
   background: #242424;
 }
-
+h3 {
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
 .main {
   grid-area: contenido;
   padding: 10px;
@@ -217,4 +236,29 @@ a {
 
 .main .grid-videos .video video {
   width: 100%;
+}
+[value="TODOS"]:checked ~ .posts .post[data-category] {
+  display: block;
+}
+
+[value="REACT"]:checked ~ .posts .post:not([data-category~="REACT"]),
+[value="JAVASCRIPT"]:checked ~ .posts .post:not([data-category~="JAVASCRIPT"]),
+[value="BOOTSTRAP"]:checked ~ .posts .post:not([data-category~="BOOTSTRAP"]),
+[value="NODE"]:checked ~ .posts .post:not([data-category~="NODE"]),
+[value="HTML"]:checked ~ .posts .post:not([data-category~="HTML"]),
+[value="CSS"]:checked ~ .posts .post:not([data-category~="CSS"]),
+[value="MYSQL"]:checked ~ .posts .post:not([data-category~="MYSQL"]) {
+  display: none;
+}
+
+[value="TODOS"]:checked ~ .container-category [for="TODOS"],
+[value="REACT"]:checked ~ .container-category [for="REACT"],
+[value="JAVASCRIPT"]:checked ~ .container-category [for="JAVASCRIPT"],
+[value="BOOTSTRAP"]:checked ~ .container-category [for="BOOTSTRAP"],
+[value="NODE"]:checked ~ .container-category [for="NODE"],
+[value="HTML"]:checked ~ .container-category [for="HTML"],
+[value="CSS"]:checked ~ .container-category [for="CSS"],
+[value="MYSQL"]:checked ~ .container-category [for="MYSQL"] {
+  background: #242424;
+  color: #fff;
 }
