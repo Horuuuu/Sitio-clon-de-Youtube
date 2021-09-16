@@ -150,6 +150,12 @@ a {
   width: 20px;
   text-align: center;
 }
+.fa {
+  color: grey;
+  margin-right: 36px;
+  width: 20px;
+  text-align: center;
+}
 .menu-lateral a.active .fas {
   color: red;
 }

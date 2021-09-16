@@ -150,10 +150,15 @@ a {
   width: 20px;
   text-align: center;
 }
-.menu-lateral a.active .fas {
+.menu-lateral a.active .fa {
   color: red;
 }
-
+.fa {
+  color: grey;
+  margin-right: 36px;
+  width: 20px;
+  text-align: center;
+}
 .menu-lateral hr {
   margin: 20px 0;
   border: 1px solid whitesmoke;
