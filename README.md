@@ -19,9 +19,12 @@
 
 
  ![](img/play-video.jpg)
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Resumen a completar 🙏
 
 <footer>Las páginas estan hechas con Html ,Css ,Bootstrap y Javascript</footer>
+
+DEMO:https://resumencv.netlify.app/
 
 
 ![](img/front.jpg)
