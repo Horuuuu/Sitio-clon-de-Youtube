@@ -252,7 +252,7 @@ h3 {
 [value="BOOTSTRAP"]:checked ~ .posts .post:not([data-category~="BOOTSTRAP"]),
 [value="NODE"]:checked ~ .posts .post:not([data-category~="NODE"]),
 [value="HTML"]:checked ~ .posts .post:not([data-category~="HTML"]),
-[value="CSS"]:checked ~ .posts .post:not([data-category~="CSS"]),
+[value="EXPRESS"]:checked ~ .posts .post:not([data-category~="EXPRESS"]),
 [value="MYSQL"]:checked ~ .posts .post:not([data-category~="MYSQL"]) {
   display: none;
 }
@@ -263,7 +263,7 @@ h3 {
 [value="BOOTSTRAP"]:checked ~ .container-category [for="BOOTSTRAP"],
 [value="NODE"]:checked ~ .container-category [for="NODE"],
 [value="HTML"]:checked ~ .container-category [for="HTML"],
-[value="CSS"]:checked ~ .container-category [for="CSS"],
+[value="EXPRESS"]:checked ~ .container-category [for="EXPRESS"],
 [value="MYSQL"]:checked ~ .container-category [for="MYSQL"] {
   background: #242424;
   color: #fff;

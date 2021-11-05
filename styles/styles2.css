@@ -184,5 +184,5 @@ a {
   transition: transform 2s;
 }
 .main .grid-videos .video img:hover {
-  transform: scale(1.6);
+  transform: scale(1.9);
 }
